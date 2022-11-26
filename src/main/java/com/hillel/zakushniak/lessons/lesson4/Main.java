@@ -15,7 +15,6 @@ public class Main {
         System.out.println("Довжина сторін паралелепіпеда = " + lenght);
 
         // ДЗ 5. Китайскі династії
-
         int powerWarriorLi = 13;
         int powerArcherLi = 24;
         int powerRiderLi = 46;
