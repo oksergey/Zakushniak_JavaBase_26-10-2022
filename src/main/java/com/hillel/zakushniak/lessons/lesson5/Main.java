@@ -29,8 +29,8 @@ public class Main {
         int player5Team2 = scanner.nextInt();
         scanner.nextLine();
 
-        int averageFragsTeam1 = (player1Team1 + player2Team1 + player3Team1 + player4Team1 + player5Team1) / 5;
-        int averageFragsTeam2 = (player1Team2 + player2Team2 + player3Team2 + player4Team2 + player5Team2) / 5;
+        double averageFragsTeam1 = (double)(player1Team1 + player2Team1 + player3Team1 + player4Team1 + player5Team1) / 5;
+        double averageFragsTeam2 = (double)(player1Team2 + player2Team2 + player3Team2 + player4Team2 + player5Team2) / 5;
 
         if (averageFragsTeam1 > averageFragsTeam2) {
             System.out.println("Перемогла команда " + team1Name + " набрала " + averageFragsTeam1 + " очків");
