@@ -7,13 +7,13 @@ public class HomeWork8_2 {
         System.out.print("Shuttle numbers: ");
         int counter = 0;
 
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; counter < 100; i++) {
 
-            if ( i % 10 == 4 || i % 10 == 9 || i / 10 == 4 || i / 10 == 9) {
+            if ( i / 100 == 4 || i / 100 == 9|| i / 10 % 10 == 4 || i / 10 % 10 == 9 || i % 10 == 4 || i % 10 == 9 ) {
                 continue;
             }
-            System.out.print((i != 100) ? i + ", " : i + ".");
-            counter += 1;
+            counter ++;
+            System.out.print((counter < 100) ? i + ", " : i + ".");
         }
         System.out.println();
         System.out.println("Shuttle quantity: " + counter);
