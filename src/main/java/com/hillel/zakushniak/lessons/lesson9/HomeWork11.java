@@ -1,4 +1,4 @@
-package com.hillel.zakushniak.lessons.lesson10;
+package com.hillel.zakushniak.lessons.lesson9;
 
 import java.util.Scanner;
 
@@ -94,4 +94,3 @@ public class HomeWork11 {
         }
     }
 }
-
